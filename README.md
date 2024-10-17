@@ -1,50 +1,10 @@
-# React + TypeScript + Vite
+# 프론트엔드 주니어 개발자를 위한 퀴즈 플렛폼 ( FE Pick ) 팹픽
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 이 프로젝트는 **프론트엔드 주니어 개발자**들이 HTML, CSS, JavaScript, TypeScript, React, Next.js의 핵심 기술 스택에 대한 기초적인 퀴즈를 풀며 학습할 수 있는 **퀴즈 플랫폼**입니다. 각 스킬별로 준비된 퀴즈를 통해 스스로 실력을 점검하고, 프론트엔드 개발자로서의 역량을 향상시킬 수 있습니다.
 
-Currently, two official plugins are available:
+## Tech Stack
+#### FE
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Zustand-%23764ABC.svg?&style=for-the-badge&logo=zustand&logoColor=white" /> <img alt="Python" src ="https://img.shields.io/badge/StyledComponents-2A3657?style=for-the-badge&logo=StyledComponents&logoColor=#DB7093"/> 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from "eslint-plugin-react"
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-})
-```
+#### BE
+<img src="https://img.shields.io/badge/mongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"> <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white">
